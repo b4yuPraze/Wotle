@@ -1,8 +1,10 @@
-package com.wotle.wonderfulshuttle;
+package com.wotle.wonderfulshuttle.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.wotle.wonderfulshuttle.R;
 
 public class MainActivity extends AppCompatActivity {
 
