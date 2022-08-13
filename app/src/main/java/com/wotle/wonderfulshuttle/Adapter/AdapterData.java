@@ -24,5 +24,7 @@ public class AdapterData {
         public HolderDataUser(@NonNull View itemView) {
             super(itemView);
         }
+
+
     }
 }
