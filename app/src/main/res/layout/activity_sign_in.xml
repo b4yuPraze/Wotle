@@ -10,7 +10,6 @@
     android:background="#F5F5F5"
     tools:context=".Activity.SignIn">
 
-
         // Header
         <LinearLayout
             android:layout_weight="3"
