@@ -83,7 +83,7 @@
                 app:boxStrokeWidthFocused="0dp"
                 android:hint="Password">
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/EmailSignin"
+                    android:id="@+id/PasswordSignin"
                     android:layout_width="match_parent"
                     android:inputType="textPassword"
                     android:backgroundTint="#E8ECF4"
@@ -91,6 +91,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
+                android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Login"
@@ -160,6 +161,30 @@
                 android:text="Login with Phone"
                 android:textAllCaps="false"/>
         </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tidak memiliki akun ? "
+            android:textAlignment="textEnd"
+            android:textSize="12dp"/>
+        <TextView
+            android:id="@+id/SignupAkun"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buat Akun"
+            android:textColor="@color/blue_sky"
+            android:textStyle="bold"
+            android:textSize="12dp"/>
+    </LinearLayout>
 
 
 
