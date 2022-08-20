@@ -1,6 +1,8 @@
 package com.wotle.wonderfulshuttle.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -33,9 +35,19 @@ public class SignIn extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
+        if (dataLogin != null){
+            if (dataLogin.get(0).getRole().equals("Pelanggan")){
+                Toast.makeText(SignIn.this, "Login Sebagai Pelanggan", Toast.LENGTH_SHORT).show();
+            }else if (dataLogin.get(0).getRole().equals("Driver")){
+                startActivity(new Intent(SignIn.this, Sopir.class));
+            }
+        }
+
         email = findViewById(R.id.EmailSignin);
         password = findViewById(R.id.PasswordSignin);
         btnLogin = findViewById(R.id.btnLogin);
+
+
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,8 +78,14 @@ public class SignIn extends AppCompatActivity{
                 }else{
                     String message = response.body().getMessage();
                     dataLogin = response.body().getData();
+                    String role = dataLogin.get(0).getRole();
                     if (message.equals("Success")){
                         Toast.makeText(SignIn.this, "Login Berhasil: "+message+" Data: "+dataLogin.get(0).getEmail()+" - "+dataLogin.get(0).getPassword(), Toast.LENGTH_SHORT).show();
+                        if (role.equals("Pelanggan")){
+                            Toast.makeText(SignIn.this, "Login Sebagai Pelanggan", Toast.LENGTH_SHORT).show();
+                        }else if (role.equals("Driver")){
+                            startActivity(new Intent(SignIn.this, Sopir.class));
+                        }
                     }
                 }
             }
