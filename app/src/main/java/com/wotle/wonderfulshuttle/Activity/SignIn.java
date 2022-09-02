@@ -1,11 +1,14 @@
 package com.wotle.wonderfulshuttle.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.wotle.wonderfulshuttle.API.APIRequestData;
@@ -26,6 +29,8 @@ public class SignIn extends AppCompatActivity{
     private Button btnLogin, btnLoginGoogle, btnLoginPhone;
     private List<DataModel> dataLogin;
 
+    private TextView register;
+
     private String TempEmail, TempPass;
 
     @Override
@@ -36,6 +41,15 @@ public class SignIn extends AppCompatActivity{
         email = findViewById(R.id.EmailSignin);
         password = findViewById(R.id.PasswordSignin);
         btnLogin = findViewById(R.id.btnLogin);
+        register = findViewById(R.id.SignupAkun);
+
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SignIn.this, SignUp.class));
+                finish();
+            }
+        });
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
