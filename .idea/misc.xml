@@ -11,15 +11,25 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/WonderFulShuttle/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/drawable/ic_line.xml" value="0.15" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/drawable/rounded_all.xml" value="0.1505" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/drawable/rounded_corner.xml" value="0.165" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/drawable/rounded_corner_pesan.xml" value="0.123" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/drawable/rounded_corner_signin.xml" value="0.123" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/drawable/rounded_garis.xml" value="0.15" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/drawable/rounded_rectangle.xml" value="0.165" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/drawable/rounded_ring.xml" value="0.1505" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/activity_akun.xml" value="0.25" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/activity_akun_edit.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/activity_kasih_masukkan.xml" value="0.25" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/activity_pembayaran.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/activity_pembayaran_berhasil.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/activity_pesanan.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/activity_pesanan_jemput.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/activity_pusat_bantuan.xml" value="0.22" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/latihan.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/latihan2.xml" value="0.18" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Wotle1/app/src/main/res/layout/latihan3.xml" value="0.25" />
       </map>
     </option>
   </component>
