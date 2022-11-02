@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:padding="@dimen/_15sdp"
+    tools:context=".Driver.Driver"
+    android:layout_height="@dimen/_80sdp">
+
+    <RelativeLayout
+        android:id="@+id/header_menu_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENU"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textColor="@color/pesan"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:onClick="onDrawerClosed"
+            android:id="@+id/closeDrawerSlide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="end|center"
+            android:text="X"
+            android:textColor="@color/pesan"
+            android:textSize="24dp" />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

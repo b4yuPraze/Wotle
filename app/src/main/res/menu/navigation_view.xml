@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navViewHome"
+            android:icon="@drawable/ic_account"
+            android:iconTint="@color/white"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/navViewPusatBantuan"
+            android:icon="@drawable/ic_baseline_help_outline_24"
+            android:iconTint="@color/white"
+            android:title="Pusat Bantuan"/>
+        <item
+            android:id="@+id/pengaturan"
+            android:icon="@drawable/ic_settings"
+            android:iconTint="@color/white"
+            android:title="Pengaturan"/>
+    </group>
+</menu>

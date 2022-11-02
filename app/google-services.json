@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "34896984956",
+    "project_id": "wotle-2ee57",
+    "storage_bucket": "wotle-2ee57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34896984956:android:d3f9febc9110ebf71c02f9",
+        "android_client_info": {
+          "package_name": "com.wotle.wotle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34896984956-305ubqd537ovt27tn5bavqga6sudq6a9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wotle.wotle",
+            "certificate_hash": "5b018e2058de96aecf8ec3c8208a94a687990669"
+          }
+        },
+        {
+          "client_id": "34896984956-7g6k4kf8s93d03qr7t5roeqejho1549l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAAszHZ6-zq_h4wZXfMCz-b3eU0mEYqdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34896984956-7g6k4kf8s93d03qr7t5roeqejho1549l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
