@@ -1,110 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="@dimen/_15sdp"
-    tools:context=".Customer.EmergencyContact">
+    android:layout_height="match_parent">
 
-    <RelativeLayout
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"
+        android:layout_marginBottom="8dp"
+        android:inputType="textPersonName"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomer HP"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:backgroundTint="#E88077"
+            android:text="Cancel"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_save"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E88077"
+            android:text="Save"/>
 
-                <ImageView
-                    android:id="@+id/backProfileDriverMyProfile"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/_8sdp"
-                    android:scaleType="center"
-                    android:src="@drawable/ic_chevron_left" />
+    </LinearLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:layout_height="wrap_content"
-                    android:text="Tambah Kontak Darurat "
-                    android:textColor="#316789"
-                    android:textSize="@dimen/_14sdp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:background="#B3B3B3"
-                android:layout_marginBottom="@dimen/_10sdp"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <EditText
-                    android:id="@+id/namaPemesan"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="@drawable/rounded_corner"
-                    android:hint="Nama Lengkap"
-                    android:inputType="textMultiLine"
-                    android:paddingLeft="@dimen/_10sdp"
-                    android:singleLine="false"
-                    android:textColor="@color/white"
-                    android:textColorHint="@color/white"
-                    android:textSize="@dimen/_12sdp"
-                    android:layout_marginBottom="@dimen/_5sdp"/>
-
-                <EditText
-                    android:id="@+id/namaPemesan"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="@drawable/rounded_corner"
-                    android:hint="Nomor HP"
-                    android:inputType="textMultiLine"
-                    android:paddingLeft="@dimen/_10sdp"
-                    android:singleLine="false"
-                    android:textColor="@color/white"
-                    android:textColorHint="@color/white"
-                    android:textSize="@dimen/_12sdp" />
-
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="@dimen/_10sdp"
-            android:gravity="bottom"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/simpanKontak"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:layout_marginBottom="@dimen/_5sdp"
-                android:backgroundTint="#E88077"
-                android:padding="@dimen/_12sdp"
-                android:text="Simpan"
-                android:textAllCaps="false" />
-
-        </LinearLayout>
-    </RelativeLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
